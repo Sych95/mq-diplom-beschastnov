@@ -84,8 +84,6 @@ button {
 	object-fit: cover;
 }
 
-
-
 .menu-list {
 	display: flex;
 	justify-content: space-between;
@@ -267,6 +265,35 @@ button {
 
 	.trend-content-wrapper>h2 {
 		font-size: 2.2vw;
-		line-height: 22px;
 	}
+}
+
+@media (max-width: 640px) {
+	.header {
+		background-image: url('../img/banner-mobile.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+
+	.wrapper {
+		padding-top: 30px;
+		max-width: 270px;
+	}
+
+	.logo {
+		max-width: 220px;
+		width: 100%;
+		margin: auto;
+	}
+
+	.menu-list {
+		display: none;
+	}
+	.btn-toggle {
+		display: flex;
+	}
+
+	.header-text {
+		font-size: 7.2vw;
+	} 
 }
