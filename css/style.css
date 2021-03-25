@@ -208,21 +208,10 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 641px) and (max-width: 1199px) {
 
 	.header {
-		background-image: url(../img/banner-bg-tablet.jpg);
+		background-image: url("../img/banner-bg-tablet.jpg");
 		background-position: left top;
 	}
 
@@ -270,5 +259,14 @@ button {
 
 	.trend-item {
 		width: calc(50vw - 3px);
+	}
+
+	.category-item {
+		font-size: 1.8vw;
+	}
+
+	.trend-content-wrapper>h2 {
+		font-size: 2.2vw;
+		line-height: 22px;
 	}
 }
