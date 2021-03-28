@@ -233,7 +233,13 @@
   }
   
   .post-picture {
+	min-width: 380px;
 	margin-right: 30px;
+  }
+
+  .post-picture>img {
+	  max-width: 100%;
+	  object-fit: cover;
   }
   
   .main-post-content {
@@ -289,7 +295,7 @@
   }
 
   .side-bar {
-	max-width: 270px;
+	max-width: 271px;
 }
 
 .side-bar-title {
@@ -326,13 +332,13 @@
   }
   
   .latest-post-img {
-	max-width: 70px;
+	min-width: 70px;
 	margin-right: 20px;
   }
   
   .latest-post-img > img {
-	width: 100%;
 	object-fit: cover;
+	max-width: 100%;
   }
   
   .latest-post-date {
@@ -344,6 +350,8 @@
   .latest-post-title-text {
 	font-family: "OpenSans_Bold";
 	font-size: 1.4rem;
+	/* не уверен насчет правильности решения уменьшения lineheight */
+	line-height: 15px;
 	color: #000000;
 	text-transform: uppercase;
 	margin: 10px 0 0;
@@ -500,6 +508,11 @@
 		margin-top: 15px;
 	}
 
+	.post-picture {
+		width: 100%;
+		margin-right: 0;
+	  }
+
 	.main-post-title {
 	  font-size: 1.7rem;
 	  margin-bottom: 40px;
@@ -511,7 +524,7 @@
 
   
 	.side-bar {
-		max-width: 270px;
+		max-width: 271px;
 	}
 
   }
@@ -636,12 +649,12 @@
 	}
   
 	.post-picture {
-		width: 100%;
-	  margin: 0;
+	width: 100%;
+	margin: 0;
 	}
 	.post-picture > img {
+	max-width: 100%;
 	  object-fit: cover;
-	  width: 100%;
 	}
 
 	.main-post-title {
