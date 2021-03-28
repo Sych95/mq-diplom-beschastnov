@@ -613,7 +613,7 @@
   
 	.main-posts {
 	  max-width: 330px;
-	  margin-right: 0;
+	  margin:auto;
 	}
   
 	.main-post-wrapper {
@@ -623,8 +623,12 @@
 	  border-bottom: 3px solid #eeeeee;
 	}
 
+	.main-post-wrapper:not(:last-child) {
+		margin-bottom: 35px;
+	}
+
 	.main-post {
-		flex-direction: column;
+		flex-direction: column;	
 	  }
 
 	.main-post-content{
@@ -632,6 +636,7 @@
 	}
   
 	.post-picture {
+		width: 100%;
 	  margin: 0;
 	}
 	.post-picture > img {
@@ -639,8 +644,12 @@
 	  width: 100%;
 	}
 
+	.main-post-title {
+		margin-bottom: 25px;
+	}
+
 	.main-post-meta {
-	  margin: 0 0 20px;
+	  margin: 0 0 25px;
 	}
   
 	.side-bar {
