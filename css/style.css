@@ -392,7 +392,7 @@
 	border: none;
 	width: 50px;
 	background-color: #b59f5b;
-	background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+	background-image: url("../svg/search.svg");
 	background-size: 20px 20px;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -607,6 +607,10 @@
 	  font-size: 1.6rem;
 	  line-height: 2rem;
 	}
+
+	.decoretion-line {
+		margin: 10px auto 25px;
+	}
   
 	.trends-list {
 	  flex-wrap: wrap;
@@ -622,12 +626,14 @@
   
 	.content-wrapper {
 		flex-direction: column;
-		padding: 0 15px 0;
+		padding: 0;
 	}
   
 	.main-posts {
 	  max-width: 330px;
-	  margin:auto;
+	 padding: 0 15px 0; 
+	  margin: auto;
+	  
 	}
   
 	.main-post-wrapper {
@@ -650,8 +656,9 @@
 	}
   
 	.post-picture {
-	width: 100%;
-	margin: 0;
+		min-width: 100%;
+		max-width: 100%;
+		margin: 0;
 	}
 	.post-picture > img {
 		max-width: 100%;
@@ -667,7 +674,9 @@
 	}
 
 	.side-bar {
-		min-width: 100%;
+		max-width: 330px;
+		padding: 0 15px 0;
+		margin: auto;
 	}
 
 	.search-input {
@@ -678,7 +687,5 @@
 		width: 50px;
 	}
   
-
-
   }
   
