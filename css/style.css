@@ -542,6 +542,7 @@
   .product-picture-image {
 	width: 100%;
 	object-fit: cover;
+	object-position: center center;
   }
   
   .product-description {
@@ -602,8 +603,7 @@
   
   .footer-wrapper {
 	max-width: 1200px;
-	padding: 0 15px 0;
-	margin: auto;
+	margin:auto;
   }
   
   .socials {
@@ -976,11 +976,23 @@
 	}
   
 	.product-wrapper {
-	  max-width: 700px;
+	  max-width: 330px;
 	}
   
 	.product-item {
 	  margin: auto;
+	}
+
+	.product-picture {
+		max-width: 285px;
+	}
+
+	.product-title {
+		font-size: 1.7rem;
+	}
+
+	.product-description {
+		height: 215px;
 	}
   
 	.footer-wrapper {
