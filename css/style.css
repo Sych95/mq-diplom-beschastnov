@@ -245,8 +245,13 @@
   }
   
   .post-picture-image {
-	max-width: 100%;
+	width: 100%;
 	object-fit: cover;
+	object-position: center center;
+  }
+
+  .post-picture > .link-to-main-post {
+	  display: block;
   }
   
   .main-post-content {
