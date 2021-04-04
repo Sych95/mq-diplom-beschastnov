@@ -244,7 +244,7 @@
 	margin-right: 30px;
   }
   
-  .post-picture > img {
+  .post-picture-image {
 	max-width: 100%;
 	object-fit: cover;
   }
