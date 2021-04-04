@@ -609,7 +609,7 @@
   }
   
   .product-btn {
-	max-width: 140px;
+	width: 140px;
 	max-height: 500px;
 	padding: 18px 26px;
 	font-family: "OpenSans_Bold", sans-serif;
@@ -780,9 +780,7 @@
 	  font-size: 1.7rem;
 	  margin-bottom: 40px;
 	}
-	
 
-  
 	.main-post-meta {
 	  margin-bottom: 35px;
 	}
@@ -824,6 +822,14 @@
   
 	.product-item {
 	  margin-right: 0;
+	}
+
+	.product-description {
+		height: 265px;
+	}
+
+	.product-meta {
+		margin-top: 20px;
 	}
   
 	.footer-wrapper {
