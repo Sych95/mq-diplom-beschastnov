@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Адаптивная верстка</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Адаптивная верстка</title>
 </head>
+
 <body>
   <header class="header">
     <div class="wrapper">
@@ -36,7 +38,7 @@
   <section class="trends">
     <h2>сейчас в тренде</h2>
     <div class="decoration-line"></div>
-  
+
     <ul class="trends-list">
       <li class="trend-item">
         <img src="img/trend1.jpg" alt="" class="trend-item-bg">
@@ -207,7 +209,7 @@
               <h3 class="latest-post-title-text">10 мест, ради которых стоит проснуться</h3>
             </div>
           </li>
-  
+
           <li class="latest-post">
             <div class="latest-post-img"><img src="img/151.jpg"></div>
             <div class="post-date-title">
@@ -215,7 +217,7 @@
               <h3 class="latest-post-title-text">Йога для домашних</h3>
             </div>
           </li>
-  
+
           <li class="latest-post">
             <div class="latest-post-img"><img src="img/45.jpg"></div>
             <div class="post-date-title">
@@ -223,7 +225,7 @@
               <h3 class="latest-post-title-text">как мы превратили классное место в балкон</h3>
             </div>
           </li>
-  
+
           <li class="latest-post">
             <div class="latest-post-img"><img src="img/501.jpg"></div>
             <div class="post-date-title">
@@ -231,7 +233,7 @@
               <h3 class="latest-post-title-text">Кулинарный подход к науке</h3>
             </div>
           </li>
-  
+
           <li class="latest-post">
             <div class="latest-post-img"><img src="img/7.jpg"></div>
             <div class="post-date-title">
@@ -240,13 +242,13 @@
             </div>
           </li>
         </ul>
-  
+
         <form class="search-form" type="text">
           <input class="search-input" type="text" name="post-search" placeholder="Найти..." required>
           <button class="search-button" type="submit"></button>
         </form>
       </section>
-  
+
       <section class="subscribe">
         <h2 class="side-bar-title">рассылка</h2>
         <div class="decoration-line"></div>
@@ -256,11 +258,11 @@
             <span class="visually-hidden">Введите Ваш email-адрес</span>
           </label>
           <label class="subscribe-button-label">
-            <button class="subscribe-button" type="submit" >
+            <button class="subscribe-button" type="submit">
               Подписаться
             </button>
             <span class="visually-hidden">Подписаться на рассылку</span>
-        </label>
+          </label>
         </form>
       </section>
       <section class="tags">
@@ -293,9 +295,9 @@
           </li>
         </ul>
       </section>
-      <section class="categories"> 
-      <h2 class="side-bar-title">темы</h2>
-      <div class="decoration-line"></div>
+      <section class="categories">
+        <h2 class="side-bar-title">темы</h2>
+        <div class="decoration-line"></div>
         <ul class="categories-title-list">
           <li class="category-aside"><a href="#"><span class="category-aside-text">красота</span></a><span class="category-aside-count">12</span></li>
           <li class="category-aside"><a href="#"><span class="category-aside-text">здоровье</span></a><span class="category-aside-count">4</span></li>
@@ -307,75 +309,70 @@
       </section>
     </aside>
   </div>
-  <!-- <section class="products">
-    <div class="products-wrapper">
+
+  <section class="products">
+    <div class="product-wrapper">
+      <h2>наши изделия</h2>
+      <div class="decoration-line"></div>
+
       <ul class="product-list">
         <li class="product-item">
-          <picture class="product-photo">
-            <source
-              media="(min-width: 1200px)"
-              srcset="img/shop-item-desk1.jpg">
-            <source
-              media="(min-width: 641px)"
-              srcset="img\shop-item-tablet1.jpg">
-            <img src="img/shop-item-mobile1.jpg" alt="Подушка с надписью Hang our spot">
+          <picture class="product-picture">
+            <source media="(min-width: 1200px)" srcset="img\shop-item-desk1.jpg">
+            <source media="(min-width: 641px) and (max-width: 1199px)" srcset="img\shop-item-tablet1.jpg">
+            <img src="img\shop-item-mobile1.jpg" alt="" class="product-picture-image">
           </picture>
-          <article class="product-article">
+          <article class="product-description">
             <h3 class="product-title">Подушки на диван</h3>
-            <div class="product-description">
-              <p class="product-description-text">Набор из двух подушек с модными принтами. Видео о создании здесь</p>
-            </div>
+            <div class="product-text">Набор из двух подушек с модными принтами. Видео о создании здесь</div>
             <div class="product-meta">
-              <div class="price"></div>
-              <div class="shop-link"></div>
+              <div class="price">
+                <div class="last-price">1000 Р</div>
+                <div class="current-price">800 Р</div>
+              </div>
+              <button class="product-btn">в магазин</button>
             </div>
           </article>
         </li>
         <li class="product-item">
-          <picture class="product-photo">
-            <source
-              media="(min-width: 1200px)"
-              srcset="img/shop-item-desk2.jpg">
-            <source
-              media="(min-width: 641px)"
-              srcset="img\shop-item-tablet2.jpg">
-            <img src="img/shop-item-mobile2.jpg" alt="Чашка, ветхие книги и игрушечный заяц">
+          <picture class="product-picture">
+            <source media="(min-width: 1200px)" srcset="img\shop-item-desk2.jpg">
+            <source media="(min-width: 641px) and (max-width: 1199px)" srcset="img\shop-item-tablet2.jpg">
+            <img src="img\shop-item-mobile2.jpg" alt="" class="product-picture-image">
           </picture>
-          <article class="product-article">
+          <article class="product-description">
             <h3 class="product-title">Кукла «Зайчик»</h3>
-            <div class="product-description">
-              <p class="product-description-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена весенняя</p>
-            </div>
+            <div class="product-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена весенняя серия постов в блоге и несколько подкастов.</div>
             <div class="product-meta">
-              <div class="price"></div>
-              <div class="shop-link"></div>
+              <div class="price">
+                <div class="last-price"></div>
+                <div class="current-price">3500 Р</div>
+              </div>
+              <button class="product-btn">в магазин</button>
             </div>
           </article>
         </li>
         <li class="product-item">
-          <picture class="product-photo">
-            <source
-              media="(min-width: 1200px)"
-              srcset="img/shop-item-desk3.jpg">
-            <source
-              media="(min-width: 641px)"
-              srcset="img\shop-item-tablet3.jpg">
-            <img src="img/shop-item-mobile3.jpg" alt="Шестиугольная рама и ваза-бутылка">
+          <picture class="product-picture">
+            <source media="(min-width: 1200px)" srcset="img\shop-item-desk3.jpg">
+            <source media="(min-width: 641px) and (max-width: 1199px)" srcset="img\shop-item-tablet3.jpg">
+            <img src="img\shop-item-mobile3.jpg" alt="" class="product-picture-image">
           </picture>
-          <article class="product-article">
+          <article class="product-description">
             <h3 class="product-title">Шестиугольная рамка</h3>
-            <div class="product-description">
-              <p class="product-description-text">Необычная рамка для украшения дома из видео «Как сделать рамку из подручных средств за 30 минут» </p>
-            </div>
+            <div class="product-text">Необычная рамка для украшения дома из видео «Как сделать рамку из подручных средств за 30 минут» </div>
             <div class="product-meta">
-              <div class="price"></div>
-              <div class="shop-link"></div>
+              <div class="price">
+                <div class="last-price">500 Р</div>
+                <div class="current-price">400 Р</div>
+              </div>
+              <button class="product-btn">в магазин</button>
             </div>
           </article>
         </li>
       </ul>
     </div>
-  </section> -->
+  </section>
 
   <footer class="footer">
     <div class="footer-wrapper">
@@ -392,4 +389,5 @@
     </div>
   </footer>
 </body>
+
 </html>
