@@ -609,9 +609,7 @@
   }
   
   .product-btn {
-	width: 140px;
-	max-height: 500px;
-	padding: 18px 26px;
+	padding: 18px 28px;
 	font-family: "OpenSans_Bold", sans-serif;
 	font-weight: 700;
 	font-size: 1.4rem;
