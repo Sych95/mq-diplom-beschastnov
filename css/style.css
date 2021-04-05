@@ -481,7 +481,6 @@
   .tag {
 	display: block;
 	font-family: "OpenSans_Bold", sans-serif;
-  
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -490,6 +489,10 @@
 	margin-right: 5px;
 	background-color: rgba(244, 243, 241, 0);
 	border: 3px solid #eeeeee;
+  }
+
+  .tag:nth-child(3n+3) {
+	  margin-right: 0;
   }
   .tag-text {
 	color: #0f0d0e;
