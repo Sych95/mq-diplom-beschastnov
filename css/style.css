@@ -485,7 +485,7 @@
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
-	padding: 6px 13px;
+	padding: 7px 12px;
 	margin-bottom: 5px;
 	margin-right: 5px;
 	background-color: rgba(244, 243, 241, 0);
@@ -792,7 +792,7 @@
 	  display: flex;
 	  flex-direction: column;
 	}
-  
+
 	.category-aside {
 	  display: block;
 	  padding-bottom: 12px;
