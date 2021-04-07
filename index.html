@@ -10,8 +10,42 @@
 </head>
 
 <body>
+  <div class="popup">
+    <div class="popup-block">
+      <button class="popup-btn-close"></button>
+      <h2 class="section-title">ваш фидбек</h2>
+      <div class="decoration-line"></div>
+      <form action="#" class="popup-form">
+        <div class="form-item">
+          <div class="form-question">Как часто вы заходите на сайт?</div>
+          <select class="first-question">
+            <option value="Почти каждый день" selected>Почти каждый день</option>
+            <option value="Раз в неделю">Раз в неделю</option>
+            <option value="Раз в месяц">Раз в месяц</option>
+          </select>
+        </div>
+        <div class="form-item">
+          <div class="form-question">Вы подписаны на e-mail рассылку?</div>
+          <label for="yes" class="popup-form-radio-label">
+            <input type="radio" name="email" id="yes" value="yes" class="popup-form-radio">
+            <span class="popup-form-radio-answer">Да</span>
+          </label>
+          <label for="no" class="popup-form-radio-label">
+            <input type="radio" name="email" id="no" value="no" class="popup-form-radio">
+            <span class="popup-form-radio-answer">Нет</span>
+          </label>
+        </div>
+        <div class="form-item">
+          <div class="form-question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</div>
+          <textarea class="popup-form-text" placeholder="Может, больше рецептов?" style="margin: 0;"></textarea>
+        </div>
+        <button type="button" class="form-btn">отправить</button>
+      </form>
+    </div>
+  </div>
   <header class="header">
     <div class="wrapper">
+  
       <div class="header-top">
         <div class="logo">
           <a href="#"><img class="img-logo" src="svg/noemi-logo.svg"></a>
@@ -38,59 +72,67 @@
   <section class="trends">
     <h2 class="section-title">сейчас в тренде</h2>
     <div class="decoration-line"></div>
-
+  
     <ul class="trends-list">
       <li class="trend-item">
         <img src="img/trend1.jpg" alt="" class="trend-item-bg">
-        <a href="" class="link-to-trend"><article class="trend-content">
-          <div class="trend-content-wrapper">
-            <ul class="trend-category-list">
-              <li class="category-item">Lifestyle</li>
-              <li class="category-item">INTERIOR</li>
-            </ul>
-            <h2 class="trend-content-text">Сейчас в тренде: сад
-              на подоконнике</h2>
-          </div>
-        </article></a>
+        <a href="" class="link-to-trend">
+          <article class="trend-content">
+            <div class="trend-content-wrapper">
+              <ul class="trend-category-list">
+                <li class="category-item">Lifestyle</li>
+                <li class="category-item">INTERIOR</li>
+              </ul>
+              <h2 class="trend-content-text">Сейчас в тренде: сад
+                на подоконнике</h2>
+            </div>
+          </article>
+        </a>
       </li>
       <li class="trend-item">
         <img src="img/trend2.jpg" alt="" class="trend-item-bg">
-        <a href="" class="link-to-trend"><article class="trend-content">
-          <div class="trend-content-wrapper">
-            <ul class="trend-category-list">
-              <li class="category-item">Food</li>
-            </ul>
-            <h2 class="trend-content-text">сыры на красивых
-              картинках из интернета:
-              какие они на вкус?</h2>
-          </div>
-        </article></a>
+        <a href="" class="link-to-trend">
+          <article class="trend-content">
+            <div class="trend-content-wrapper">
+              <ul class="trend-category-list">
+                <li class="category-item">Food</li>
+              </ul>
+              <h2 class="trend-content-text">сыры на красивых
+                картинках из интернета:
+                какие они на вкус?</h2>
+            </div>
+          </article>
+        </a>
       </li>
       <li class="trend-item">
         <img src="img/trend3.jpg" alt="" class="trend-item-bg">
-        <a href="" class="link-to-trend"><article class="trend-content">
-          <div class="trend-content-wrapper">
-            <ul class="trend-category-list">
-              <li class="category-item">Lifestyle</li>
-              <li class="category-item">tRAVEL</li>
-            </ul>
-            <h2 class="trend-content-text">СОБИРАЕМСЯ В ПЕРВЫЙ
-              ПОХОД В ГОРЫ</h2>
-          </div>
-        </article></a>
+        <a href="" class="link-to-trend">
+          <article class="trend-content">
+            <div class="trend-content-wrapper">
+              <ul class="trend-category-list">
+                <li class="category-item">Lifestyle</li>
+                <li class="category-item">tRAVEL</li>
+              </ul>
+              <h2 class="trend-content-text">СОБИРАЕМСЯ В ПЕРВЫЙ
+                ПОХОД В ГОРЫ</h2>
+            </div>
+          </article>
+        </a>
       </li>
       <li class="trend-item">
         <img src="img/trend4.jpg" alt="" class="trend-item-bg">
-        <a href="" class="link-to-trend"><article class="trend-content">
-          <div class="trend-content-wrapper">
-            <ul class="trend-category-list">
-              <li class="category-item">food</li>
-              <li class="category-item">health</li>
-            </ul>
-            <h2 class="trend-content-text">Сейчас в тренде: сКОЛЬКО
-              ВИТАМИНА c В ЛИМОНАХ?</h2>
-          </div>
-        </article></a>
+        <a href="" class="link-to-trend">
+          <article class="trend-content">
+            <div class="trend-content-wrapper">
+              <ul class="trend-category-list">
+                <li class="category-item">food</li>
+                <li class="category-item">health</li>
+              </ul>
+              <h2 class="trend-content-text">Сейчас в тренде: сКОЛЬКО
+                ВИТАМИНА c В ЛИМОНАХ?</h2>
+            </div>
+          </article>
+        </a>
       </li>
     </ul>
   </section>
@@ -209,7 +251,7 @@
               <h3 class="latest-post-title-text"><a href="#" class="link-to-latest-post">10 мест, ради которых стоит проснуться</a></h3>
             </div>
           </li>
-
+  
           <li class="latest-post">
             <div class="latest-post-img"><a href="#" class="link-to-latest-post"><img src="img/151.jpg"></a></div>
             <div class="post-date-title">
@@ -217,7 +259,7 @@
               <h3 class="latest-post-title-text"><a href="#" class="link-to-latest-post">Йога для домашних</a></h3>
             </div>
           </li>
-
+  
           <li class="latest-post">
             <div class="latest-post-img"><a href="" class="link-to-latest-post"><img src="img/45.jpg"></a></div>
             <div class="post-date-title">
@@ -225,7 +267,7 @@
               <h3 class="latest-post-title-text"><a href="#" class="link-to-latest-post">как мы превратили классное место в балкон</a></h3>
             </div>
           </li>
-
+  
           <li class="latest-post">
             <div class="latest-post-img"><a href="#" class="link-to-latest-post"><img src="img/501.jpg"></a></div>
             <div class="post-date-title">
@@ -233,7 +275,7 @@
               <h3 class="latest-post-title-text"><a href="#" class="link-to-latest-post">Кулинарный подход к науке</a></h3>
             </div>
           </li>
-
+  
           <li class="latest-post">
             <div class="latest-post-img"><a href="#" class="link-to-latest-post"><img src="img/7.jpg"></a></div>
             <div class="post-date-title">
@@ -242,13 +284,13 @@
             </div>
           </li>
         </ul>
-
+  
         <form class="search-form" type="text">
           <input class="search-input" type="text" name="post-search" placeholder="Найти..." required>
           <button class="search-button" type="submit"></button>
         </form>
       </section>
-
+  
       <section class="subscribe">
         <h2 class="side-bar-title">рассылка</h2>
         <div class="decoration-line"></div>
@@ -309,12 +351,12 @@
       </section>
     </aside>
   </div>
-
+  
   <section class="products">
     <div class="product-wrapper">
       <h2 class="section-title">наши изделия</h2>
       <div class="decoration-line"></div>
-
+  
       <ul class="product-list">
         <li class="product-item">
           <picture class="product-picture">
@@ -373,7 +415,7 @@
       </ul>
     </div>
   </section>
-
+  
   <footer class="footer">
     <div class="footer-wrapper">
       <address class="socials">
